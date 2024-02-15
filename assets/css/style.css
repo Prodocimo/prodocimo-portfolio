@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: green;
+    width: 100%;
+    height: 50px;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+section#apresentation {
+    background-color: yellow;
+    height: 50%;
+    width: 100%;
+}
+
+section#corpo {
+    position: relative;
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+}
+
+div#box {
+    background-color: blueviolet;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 300px;
+    border-radius: 15px;
+}
