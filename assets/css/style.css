@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
+/* MOBILE FIRST */
+
 * {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 header {
     background-color: green;
@@ -20,29 +21,87 @@ nav > ul > li {
 body {
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color: black;
 }
 
-section#apresentation {
-    background-color: yellow;
-    height: 50%;
+section#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+section#welcome > div#hello > h1 {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+div#hello {
+    width: 100%;
+    height: 250px;
+}
+
+img#hello {
+    width: 100%;
+    height: 250px;
+}
+
+section#bio {
+    background-color: #27DEBF;
+    height: 500px;
     width: 100%;
 }
 
 section#corpo {
-    position: relative;
-    background-color: blue;
-    height: 50%;
+    background-color: white;
+    height: 740px;
     width: 100%;
 }
 
 div#box {
-    background-color: blueviolet;
-    position: absolute;
-    top: 20%;
+    background-color: white;
+    position: relative;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     width: 70%;
-    height: 300px;
+    height: 750px;
     border-radius: 15px;
+    border: 1px solid #4e4e4e5b;
+    box-shadow: 0px 0px 10px #0000003f;
+    overflow: hidden;
+}
+
+div.skills {
+    height: 250px;
+}
+
+section#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #27DEBF;
+    width: 100%;
+    height: 500px;
+}
+
+div.repositories {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px auto;
+    margin-top: 30px;
+    border: 1px solid #4e4e4e5b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000003f;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
 }
