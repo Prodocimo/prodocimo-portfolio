@@ -2,6 +2,13 @@
 
 /* MOBILE FIRST */
 
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); /* fonte Anta */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* fonte Roboto */
+
+
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -9,14 +16,45 @@
 }
 
 header {
-    background-color: green;
+    display: flex;
+    background-color: white;
     width: 100%;
     height: 50px;
+    
 }
 
-nav > ul > li {
-    display: inline;
+header > img#perfil-logo {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+    background: no-repeat url(../imgs/logos-svg/html-logo.svg) center center;
+    background-color: #27DEBF;
+    border-radius: 25% 25%;
 }
+
+header > h1 {
+    display: block;
+    text-align: center;
+    width: 60%;
+    padding-top: 8px;
+    margin: 10px;
+
+    font-family: Anta, sans-serif;
+}
+
+header > nav#sandwich {
+    display: block;
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+
+    background: no-repeat center center url(../imgs/icons-svg/menu-icon.svg);
+}
+
 
 body {
     width: 100%;
@@ -33,10 +71,13 @@ section#welcome {
     height: 500px;
 }
 
-section#welcome > div#hello > h1 {
-    margin: 20px;
+section#welcome > div#hello > p {
+    margin: 50px;
     padding: 10px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 div#hello {
@@ -45,8 +86,10 @@ div#hello {
 }
 
 img#hello {
+    /* padding-top: 50px; */
     width: 100%;
     height: 250px;
+ 
 }
 
 section#bio {
@@ -71,12 +114,13 @@ div#box {
     width: 70%;
     height: 750px;
     border-radius: 15px;
-    border: 1px solid #4e4e4e5b;
-    box-shadow: 0px 0px 10px #0000003f;
+    border: 1px solid #9f9f9f36;
+    box-shadow: 0px 0px 5px #0000002f;
     overflow: hidden;
 }
 
 div.skills {
+    border-bottom: 1px solid #9f9f9f36;
     height: 250px;
 }
 
@@ -95,9 +139,9 @@ div.repositories {
     height: 200px;
     margin-bottom: 5px auto;
     margin-top: 30px;
-    border: 1px solid #4e4e4e5b;
+    border: 1px solid #9f9f9f36;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #0000003f;
+    box-shadow: 0px 0px 5px #0000002f;
 }
 
 footer {
