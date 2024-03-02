@@ -6,5 +6,7 @@
     }
 
  function clickX() {
-        menu.style.display = 'none'
+        if menu.style.display = 'block'
+
+        
     }

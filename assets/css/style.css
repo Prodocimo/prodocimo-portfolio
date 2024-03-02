@@ -30,7 +30,7 @@ header > img#perfil-logo {
     height: 100%;
     margin: 5px;
     padding: 5px;
-    background: no-repeat url(../imgs/logos-svg/html-logo.svg) center center;
+    background: no-repeat url(../imgs/svg/html-logo.svg) center center;
     background-color: #27DEBF;
     border-radius: 25% 25%;
 }
@@ -38,23 +38,12 @@ header > img#perfil-logo {
 header > h1 {
     display: block;
     text-align: center;
-    width: 60%;
+    width: 50%;
     padding-top: 8px;
-    margin: 10px;
+    margin: 5px;
 
     font-family: Anta, sans-serif;
 }
-
-header > nav#sandwich {
-    display: block;
-    float: right;
-    width: 20%;
-    height: 100%;
-    margin: 10px;
-
-    background: no-repeat center center url(../imgs/icons-svg/menu-icon.svg);
-}
-
 
 body {
     width: 100%;
@@ -78,6 +67,10 @@ section#welcome > div#hello > p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.3em;
+}
+
+section#welcome > img#minha-foto {
+    background: no repeat url(../imgs/);
 }
 
 div#hello {
