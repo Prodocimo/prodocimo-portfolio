@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); /* fonte Anta */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* fonte "Roboto" */
 
 
 
@@ -31,7 +31,7 @@ header > img#perfil-logo {
     margin: 5px;
     padding: 5px;
     background: no-repeat url(../imgs/svg/html-logo.svg) center center;
-    background-color: #27DEBF;
+    background-color: #3b395b;
     border-radius: 25% 25%;
 }
 
@@ -91,9 +91,27 @@ img#hello {
 }
 
 section#bio {
-    background-color: #27DEBF;
+    display: flex;
+    justify-content: center;
+    background-color: #3b395b;
     height: 500px;
     width: 100%;
+}
+
+section#bio > aside {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #0000002f;
+}
+
+aside > h2 {
+    font-family: Anta, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 section#corpo {
@@ -118,15 +136,38 @@ div#box {
 }
 
 div.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-bottom: 1px solid #9f9f9f36;
     height: 250px;
+}
+
+img.logo-img {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    margin-top: 25px;
+}
+
+div.skills > h2 {
+    font-family: Anta, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+div.skills > p {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    text-justify: auto;
 }
 
 section#projects {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #27DEBF;
+    background-color: #3b395b;
     width: 100%;
     height: 500px;
 }
@@ -146,4 +187,29 @@ footer {
     width: 100%;
     height: 300px;
     background-color: black;
+    color: white;
+}
+
+/* footer > div#contatos {
+
+} */
+
+footer div.icons {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.icons p {
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+footer img {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
