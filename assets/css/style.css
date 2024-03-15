@@ -215,3 +215,7 @@ footer img {
     height: 50px;
     /* border-radius: 50%; */
 }
+
+footer img#instagram-icon:hover {
+    background-color: red;
+}
