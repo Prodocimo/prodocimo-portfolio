@@ -12,6 +12,6 @@
 }
 
 body {
-    animation: appear 6ms;
+    animation: appear 1ms;
     animation-timeline: view();
 }
