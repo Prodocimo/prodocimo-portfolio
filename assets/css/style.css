@@ -204,10 +204,9 @@ section#contatos {
 }
 
 
-footer > section > div.icons {
+footer > section > a.links {
     margin-top: 2px;
     padding: 8px;
-    user-select: none;
 }
 
 footer img {
@@ -217,23 +216,17 @@ footer img {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    user-select: none;
 }
 
 
 footer img#github-icon:hover{
     background-color: #1C2128;
-    user-select: none;
 }
 
 footer img#instagram-icon:hover {
     background: linear-gradient(-45deg, #FEC053, #F11F3D, #C6258D, #5442D6);
-    transition: all, 0.9s, ease;
-    user-select: none;
-
 }
 
 footer img#linkedin-icon:hover{
-    background-color: #0274B3; 
-    user-select: none;
+    background-color: #0274B3;
 }
