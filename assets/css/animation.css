@@ -2,8 +2,8 @@
 
 @keyframes appear {
     from {
-        opacity: 0;
-        translate: -70vw 0;
+        opacity: 1;
+        translate: 0 0;
     }
 
     to {
@@ -12,14 +12,26 @@
     }
 }
 
-body {
-    animation: appear 1ms ease-in-out;
+section#welcome {
+    animation: appear 7ms ease;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
 }
 
-section#welcome {
-    animation: appear 1ms ease;
+section#bio {
+    animation: appear 7ms ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+section#corpo {
+    animation: appear 7ms ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+footer {
+    animation: appear 7ms ease;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
 }
