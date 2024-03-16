@@ -3,6 +3,7 @@
 @keyframes appear {
     from {
         opacity: 0;
+
     }
 
     to {
@@ -12,4 +13,5 @@
 
 body {
     animation: appear 6ms;
+    animation-timeline: view();
 }
