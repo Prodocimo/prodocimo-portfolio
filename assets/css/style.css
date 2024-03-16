@@ -206,17 +206,28 @@ section#contatos {
 
 footer > section > div.icons {
     margin-top: 2px;
-    padding: 10px;
+    padding: 8px;
 }
 
 footer img {
-    /* background-color: white; */
+    background-color: black;
     width: 50px;
     height: 50px;
-    padding:1px;
+    padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+
+footer img#github-icon:hover{
+    background-color: #1C2128;
 }
 
 footer img#instagram-icon:hover {
-    background-color: red;
+    background: linear-gradient(-45deg, #FEC053, #F11F3D, #C6258D, #5442D6);
+    transition: all, 0.9s, ease;
+
 }
+
+footer img#linkedin-icon:hover{
+    background-color: #0274B3;
