@@ -3,7 +3,7 @@
 @keyframes appear {
     from {
         opacity: 0;
-        translate: -100vh 0;
+        translate: 0 -100vh;
     }
 
     to {
