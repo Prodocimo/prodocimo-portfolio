@@ -116,7 +116,7 @@ aside > h2 {
 
 section#corpo {
     background-color: white;
-    height: 740px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -127,8 +127,8 @@ div#box {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 70%;
-    height: 750px;
+    width: 250px;
+    height: 1000px;
     border-radius: 15px;
     border: 1px solid #9f9f9f36;
     box-shadow: 0px 0px 5px #0000002f;
