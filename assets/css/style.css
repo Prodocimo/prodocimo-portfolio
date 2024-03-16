@@ -246,5 +246,21 @@ footer section#credits {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+footer section#credits > p {
+    margin-top: 5px;
+}
+
+footer section#credits > p.email::before {
+    content: url(../imgs/icons-svg/mail-icon.svg);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer section#credits > a {
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
 }
