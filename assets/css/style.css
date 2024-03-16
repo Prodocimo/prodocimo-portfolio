@@ -207,6 +207,7 @@ section#contatos {
 footer > section > div.icons {
     margin-top: 2px;
     padding: 8px;
+    user-select: none;
 }
 
 footer img {
@@ -216,7 +217,6 @@ footer img {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    user-select: none;
 }
 
 
