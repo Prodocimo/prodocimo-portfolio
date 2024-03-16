@@ -216,6 +216,7 @@ footer img {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
+    user-select: none;
 }
 
 
@@ -230,4 +231,5 @@ footer img#instagram-icon:hover {
 }
 
 footer img#linkedin-icon:hover{
-    background-color: #0274B3;
+    background-color: #0274B3; 
+}
