@@ -258,9 +258,3 @@ footer section#credits > p.email::before {
     margin-right: 5px;
     vertical-align: middle;
 }
-
-footer section#credits > a {
-    font-weight: bold;
-    margin-top: 5px;
-    color: white;
-}
